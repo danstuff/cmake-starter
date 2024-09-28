@@ -15,7 +15,7 @@ add_executable(starter)
 set_target_properties(starter PROPERTIES LINKER_LANGUAGE CXX)
 
 # (Example) link raylib and a few other libraries
-# target_link_libraries(starter raylib.a GL m pthread dl rt X11)
+# target_link_libraries(starter raylib GL m pthread dl rt X11)
 
 # add source files
 set(PROJECT_SRC_FILES 
